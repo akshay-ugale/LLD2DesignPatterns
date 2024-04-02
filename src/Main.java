@@ -1,6 +1,6 @@
 import BuilderPattern.Student;
 import MultiThreading.NumberPrinter;
-import SIngleton.MathUtility;
+import PrototypeAndRegistry.PrototypeAndRegistry;
 
 public class Main {
     public static void main(String[] args) {
@@ -24,6 +24,11 @@ public class Main {
                 .setBatchYear(2019)
                 .setName("Akshay")
                 .build();
+        System.out.println(std1);
+
+        //Prototype&Registry
+        System.out.println("Prototype&Registry");
+        PrototypeAndRegistry.ProtoDemo();
 
         System.out.println();
     }
